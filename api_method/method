@@ -1,0 +1,7 @@
+Get--> retrives the data from database through server
+post--> create new resources
+put--> update datas,but if he finds no data that said to update than he first creates
+patch-->just update data
+delete--> delete the sepecified resource from data base and send response
+**all of them send responses 
+**this are the api method
