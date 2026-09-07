@@ -54,7 +54,7 @@ const loadpost=()=>{
 const displayPost=(posts)=>{
 //    1.get the container
     const postcontainer=document.getElementById("post-container");
-
+        postcontainer.innerText="";// workable
  
 
     for(let post of posts){
@@ -70,4 +70,6 @@ const displayPost=(posts)=>{
 
     
     }
+
+    
 }
